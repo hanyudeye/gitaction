@@ -16,7 +16,7 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            - name: 'Build...'
+          - name: 'Build...'
             run: |
-               sudo apt install hugo
-               hugo
+                sudo apt install hugo
+                hugo
