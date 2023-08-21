@@ -14,7 +14,9 @@ jobs:
     build:
         # 运行在最新版本的Ubuntu镜像
         runs-on: ubuntu-latest
+
         steps:
             - name: 'Build...'
             run: |
-                hugo
+               sudo apt install hugo
+               hugo
