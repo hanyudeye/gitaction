@@ -16,7 +16,6 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-          - name: 'Build...'
-            run: |
-                sudo apt install hugo
-                hugo
+            - name: Hugo setup
+                uses: peaceiris/actions-hugo@v2.6.0
+            
